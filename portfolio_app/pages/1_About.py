@@ -117,7 +117,7 @@ with col1:
     st.markdown('<div style="padding: 40px 0 40px 8%;">', unsafe_allow_html=True)
     st.markdown('<div class="photo-card">', unsafe_allow_html=True)
     try:
-        st.image("../images/me.jpg", use_container_width=True)
+        st.image("portfolio_app/images/me.jpg", use_container_width=True)
     except:
         st.markdown("<div style='height:450px; background:#111; border-radius:24px; display:flex; align-items:center; justify-content:center; color:#333;'>[ PHOTO ]</div>", unsafe_allow_html=True)
     st.markdown('</div></div>', unsafe_allow_html=True)
