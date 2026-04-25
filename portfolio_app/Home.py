@@ -148,7 +148,7 @@ with col1:
 with col2:
     st.markdown('<div class="img-wrap"><div class="img-inner">', unsafe_allow_html=True)
     try:
-        st.image("../images/me.jpg", use_container_width=True)
+        st.image("portfolio_app/images/me.jpg", use_container_width=True)
     except:
         st.markdown("<div style='height:420px; background:#0a1628; display:flex; align-items:center; justify-content:center; color:#333;'>[ PHOTO ]</div>", unsafe_allow_html=True)
     st.markdown("""
