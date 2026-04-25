@@ -206,21 +206,21 @@ projects = [
         "category": "WEB DEVELOPMENT",
         "desc": "A website that provides students a reminder for their upcoming projects and activities.",
         "tech": ["HTML", "CSS", "javaScript"],
-        "image": "../images/studymate.jpg"
+        "image": "portfolio_app/images/studymate.jpg"
     },
     {
         "title": "Girl's Dormitory Management System",
         "category": "WEB DEVELOPMENT",
         "desc": "Project in AR102: A Girl Dormitory Management System that will streamline the process of inquering and monitor activities such as login and logout of the student and etc.",
         "tech": ["Microsoft Access", "MySQL"],
-        "image": "../images/dormitory.jpg"
+        "image": "portfolio_app/images/dormitory.jpg"
     },
     {
         "title": "GDF S5",
         "category": "EVENT SHOWCASE",
         "desc": "Event where we showcase our talent in Graphic Design and digital artistry.",
         "tech": ["Ibispaint app"],
-        "image": "../images/GDFS5.jpg"
+        "image": "portfolio_app/images/GDFS5.jpg"
     }
 ]
 
@@ -246,11 +246,11 @@ for project in projects:
 st.markdown('<div class="cert-section-label">CERTIFICATES</div>', unsafe_allow_html=True)
 
 certificates = [
-    {"title": "Python Essential 1 Certificate", "issuer": "Cisco Networking Academy", "image": "../images/1stpython.png"},
-    {"title": "Introduction to Graphic Design; Basics of UI/UX Certificate", "issuer": "Simplilearn", "image": "../images/Graphic_design.png"},
-    {"title": "Python for Beginners Certificate", "issuer": "Simplilearn", "image": "../images/python.png"},
-    {"title": "Web Development for Beginners Certificate", "issuer": "Simplilearn", "image": "../images/web_development.png"},
-    {"title": "Introduction to Cyber Security Certificate", "issuer": "Simplilearn", "image": "images/Cyber_security.png"},
+    {"title": "Python Essential 1 Certificate", "issuer": "Cisco Networking Academy", "image": "portfolio_app/images/1stpython.png"},
+    {"title": "Introduction to Graphic Design; Basics of UI/UX Certificate", "issuer": "Simplilearn", "image": "portfolio_app/images/Graphic_design.png"},
+    {"title": "Python for Beginners Certificate", "issuer": "Simplilearn", "image": "portfolio_app/images/python.png"},
+    {"title": "Web Development for Beginners Certificate", "issuer": "Simplilearn", "image": "portfolio_app/images/web_development.png"},
+    {"title": "Introduction to Cyber Security Certificate", "issuer": "Simplilearn", "image": "portfolio_app/images/Cyber_security.png"},
 ]
 
 cols = st.columns(5, gap="small")
